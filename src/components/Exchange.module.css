@@ -1,0 +1,29 @@
+.exchange {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.exchange_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exchange_icon{
+    height: 30px;
+    margin: 0px 10px;
+}
+
+.exchange_input, .exchange_input:focus {
+    border: none;
+    outline: none;
+    background-color: #a4e4fc;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 50%;
+    padding: 5px 15px;
+    margin-bottom: 5px  ;
+}
